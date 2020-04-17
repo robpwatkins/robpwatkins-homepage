@@ -4,6 +4,90 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+}
+
 html, body {
-  background: hotpink;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --shadow: rgb(57, 67, 77);
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid white;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/BackgroundFirstTry2.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: inset 0px 0px 10px var(--shadow);
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title-box {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.first-name {
+  position: relative;
+  height: 190px;
+  font-size: 195px;
+  font-weight: 900;
+  text-shadow: 3px 2px 3px var(--shadow);
+}
+
+.first-name-face {
+  position: absolute;
+  margin: 29px 2;
+  z-index: 1;
+}
+
+.first-name-face img {
+  width: 115px;
+}
+
+.last-name {
+  font-size: 90px;
+  font-weight: 900;
+  text-shadow: 3px 2px 3px#252934;
+  text-shadow: 3px 2px 3px var(--shadow);
+}
+
+.title-box hr {
+  width: 45%;
+  margin: 12.5px 0;
+  border-top: 2px solid white;
+  box-shadow: 2px 2px 3px var(--shadow);
+}
+
+.web-dev {
+  font-size: 35px;
+  text-shadow: 3px 2px 3px var(--shadow);
 }
