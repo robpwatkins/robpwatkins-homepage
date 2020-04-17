@@ -22,19 +22,30 @@ html, body {
   --shadow: rgb(57, 67, 77);
 }
 
+.main-container {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-image: url(./img/BackgroundFirstTry2.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  border-radius: 3px;
+  box-shadow: inset 0px 0px 10px var(--shadow);
+}
+
+.about-container, 
+.portfolio-container, 
+.contact-container {
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  background:white;
+}
+
 .home-container {
   width: 100vw;
   height: 100vh;
   border: 3px solid white;
-}
-
-.background-img {
-  width: 100%;
-  height: 100%;
-  background-image: url(./img/BackgroundFirstTry2.jpg);
-  background-size: cover;
-  border-radius: 3px;
-  box-shadow: inset 0px 0px 10px var(--shadow);
 }
 
 .home-content {
@@ -90,4 +101,28 @@ html, body {
 .web-dev {
   font-size: 35px;
   text-shadow: 3px 2px 3px var(--shadow);
+}
+
+.about-container, .portfolio-container, .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-words {
+  text-align: center;
+  font-size: 69px;
+  word-wrap: break-word;
+  padding: 0 0 0 25px;
+  width: 105px;
+}
+
+.portfolio-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio-content .side-words {
+  width: 65px;
+  padding: 0 25px 0 0;
 }
