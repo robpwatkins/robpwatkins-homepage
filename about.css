@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+}
+
+:root {
+  --primary: #f4e04d;
+  --secondary: #A4BDD8;
+  --text: #686D77;
+  --sky: #A0ADB8;
+  --shadow: rgb(57, 67, 77);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--text);
+}
+
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: white;
+}
+
+.background-img  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 12px;
+  background-image: url(./img/BackgroundFirstTry2.jpg);
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid white;
+}
+
+.title-box {
+  display: flex;
+  height: 0px;
+  margin: -12px 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.first-name {
+  position: relative;
+  height: 74px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.first-name-face {
+  position: absolute;
+  margin: 29px 2;
+  z-index: 1;
+}
+
+
+.first-name-face img {
+  width: 37px;
+  margin: -10px 2 0 0;
+}
+
+.last-name {
+  font-size: 3px;
+  font-weight: 900;
+}
+
+.title-box hr {
+  width: 45%;
+  margin: 12.5px 0;
+  border-top: 2px solid white;
+}
+
+.web-dev {
+  font-size: 35px;
+}
+
+.ul-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+ul .home {
+  width: 64px;
+}
+
+ul .about {
+  transform: scale(1.5);
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  transform: scale(1.5);
+}
+
+.content-container {
+  height: 84%;
+  width: 88%;
+  margin: 45px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.699);
+}
