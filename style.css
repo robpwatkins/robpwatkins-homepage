@@ -32,8 +32,6 @@ html, body {
   width: 100%;
   color: white;
   background: white;
-  /* background-attachment: fixed; */
-  /* border-radius: 3px; */
 }
 
 .background-img  {
@@ -46,13 +44,12 @@ html, body {
   background-image: url(./img/BackgroundFirstTry2.jpg);
   background-size: cover;
   border-radius: 3px;
-  /* box-shadow: inset 0px 0px 10px var(--shadow); */
 }
 
 .home-container {
   width: 100vw;
   height: 100vh;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 
 .about-container, 
@@ -65,22 +62,12 @@ html, body {
   border: 8px solid var(--text);
 }
 
-.home-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
 .title-box {
   display: flex;
-  height: 400px;
   width: 100%;
+  margin: -7px 0 0 0;
   flex-direction: column;
   align-items: center;
-  /* color: white; */
 }
 
 .first-name {
@@ -88,7 +75,6 @@ html, body {
   height: 190px;
   font-size: 195px;
   font-weight: 900;
-  /* text-shadow: 3px 2px 3px var(--shadow); */
 }
 
 .first-name-face {
@@ -97,6 +83,7 @@ html, body {
   z-index: 1;
 }
 
+
 .first-name-face img {
   width: 115px;
 }
@@ -104,19 +91,75 @@ html, body {
 .last-name {
   font-size: 90px;
   font-weight: 900;
-  /* text-shadow: 3px 2px 3px var(--shadow); */
 }
 
 .title-box hr {
   width: 45%;
   margin: 12.5px 0;
   border-top: 2px solid white;
-  /* box-shadow: 2px 2px 3px var(--shadow); */
 }
 
 .web-dev {
   font-size: 35px;
-  /* text-shadow: 3px 2px 3px var(--shadow); */
+}
+
+/* --------test modal open-------- */
+.background-img {
+  justify-content: flex-start;
+}
+
+.title-box {
+  height: 185px;
+}
+
+.first-name {
+  font-size: 90px;
+  height: 85px;
+}
+
+.first-name-face img {
+  width: 49px;
+  margin: -9px 2 0 0;
+}
+
+.last-name {
+  font-size: 42px;
+}
+
+.title-box hr {
+  display: none;
+}
+
+.web-dev {
+  display: none;
+}
+
+/* --------test modal open-------- */
+
+.test-modal {
+  width: 95%;
+  height: 100%;
+  margin-bottom: 25px;
+  background: rgba(255, 255, 255, 0.815);
+  border-radius: 15px;
+}
+
+.test-modal nav {
+  width: 100%;
+  height: 10%;
+  background: white;
+  border-radius: 15px;
+}
+
+.test-modal ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: #A0ADB8;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
 }
 
 .about-content {
