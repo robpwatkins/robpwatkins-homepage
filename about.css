@@ -191,13 +191,14 @@ li:hover {
   flex-direction: column;
   flex: 45%;
   height: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 50px 0 20px 0;
   /* border: 3px solid white; */
 }
 
 .top-right {
   width: 100%;
-  height: 45%;
+  height: 50%;
   border: 5px solid white;
   border-radius: 5px;
 }
