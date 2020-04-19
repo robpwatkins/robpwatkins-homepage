@@ -18,6 +18,7 @@ hr {
   --text: #686D77;
   --sky: #A0ADB8;
   --shadow: rgb(57, 67, 77);
+  --overlay: #41414242;
 }
 
 html, body {
@@ -45,6 +46,15 @@ html, body {
   background-image: url(./img/BackgroundFirstTry2.jpg);
   background-size: cover;
   border-radius: 3px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  background: var(--overlay);
 }
 
 .home-container {
