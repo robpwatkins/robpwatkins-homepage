@@ -24,7 +24,6 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: var(--text);
 }
 
 
@@ -32,17 +31,15 @@ html, body {
   height: 100%;
   width: 100%;
   color: white;
-  background: white;
 }
 
 .background-img  {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
   height: 100%;
-  padding-bottom: 12px;
+  align-items: center;
+  justify-content: flex-end;
   background-image: url(./img/BackgroundFirstTry2.jpg);
   background-size: cover;
   border-radius: 3px;
@@ -56,35 +53,33 @@ html, body {
 
 .title-box {
   display: flex;
-  height: 0px;
-  margin: -12px 0 0 0;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
+  font-weight: 700;
+  /* height: 0px; */
+  /* margin: -12px 0 0 0; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 .first-name {
   position: relative;
-  height: 74px;
-  font-size: 70px;
-  font-weight: 900;
+  /* height: 74px; */
+  font-size: 100px;
 }
 
 .first-name-face {
+  display: none;
   position: absolute;
-  margin: 29px 2;
+  margin: 18px 77px;
   z-index: 1;
 }
 
-
 .first-name-face img {
-  width: 37px;
-  margin: -10px 2 0 0;
+  width: 56px;
+  /* margin: -30px 2 0 0; */
 }
 
 .last-name {
-  font-size: 3px;
-  font-weight: 900;
+  font-size: 100px;
 }
 
 .title-box hr {
@@ -120,6 +115,11 @@ ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 ul .home {
