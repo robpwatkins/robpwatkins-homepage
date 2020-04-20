@@ -86,7 +86,7 @@ ul .home {
   width: 64px;
 }
 
-ul .blog {
+ul .contact {
   transform: scale(1.5);
   /* width: 55px; */
   color: white;
@@ -107,58 +107,47 @@ nav li:hover {
   align-items: center;
   height: 91%;
   width: 100%;
-  padding: 35px 15px 15px 15px;
+  padding: 25px 15px 15px 15px;
   /* border: 3px solid white; */
   border-radius: 10px;
 }
 
-.blog-container {
+.postcard-container {
   display: flex;
-  width: 90%;
-  height: 100%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* overflow: scroll; */
-  /* background: var(--bg-opaque); */
+  width: 85%;
+  height: 90%;
+  background: white;
+  border: 10px solid white;
+  border-radius: 5px;
+}
+
+.postcard-left, .postcard-right {
+  flex: 1;
+  /* border: 3px solid white; */
+  border-radius: 5px;
+}
+
+.postcard-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mountain-man {
+  width: 80%;
+  height: 90%;
+  background-image: url(./img/MountainManWellAdjustedNoTimehop.png);
+  /* filter: blur(8px); */
+  background-size: cover;
+  background-position: bottom 0px left -180px;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
 
-.blog-box {
-  width: 45%;
-  height: 48%;
-  color: var(--text-inactive);
-}
-
-.blog-box:hover {
-  color: white;
-}
-
-.blog-box h3 {
-  padding: 5px 0 0 0;
-}
-
-.blog-box p {
-  font-size: 11px;
-  padding: 3px 0 2px 0;
-}
-
-.blog-box hr {
-  width: 30%;
-  border-top: 2px solid var(--text-inactive);
-}
-
-.blog-box .preview-text {
-  font-size: 14px;
-  padding: 7px 0;
-}
-
-/* .blog-box:hover {
-  box-shadow: 5px 5px 10px var(--shadow);
-} */
-
-.blog-box img {
+.postcard-overlay {
   width: 100%;
-  /* border-top-left-radius: 5px; */
-  /* border-top-right-radius: 5px; */
-  border-radius: 5px;
+  height: 100%;
+  background: var(--overlay);
+  border-radius: 10px;
+  /* border: 3px solid var(--overlay); */
 }
