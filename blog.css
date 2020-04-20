@@ -126,6 +126,11 @@ nav li:hover {
 .blog-box {
   width: 45%;
   height: 48%;
+  color: var(--text-inactive);
+}
+
+.blog-box:hover {
+  color: white;
 }
 
 .blog-box h3 {
@@ -139,7 +144,7 @@ nav li:hover {
 
 .blog-box hr {
   width: 30%;
-  border-top: 2px solid white;
+  border-top: 2px solid var(--text-inactive);
 }
 
 .blog-box .preview-text {
@@ -153,6 +158,8 @@ nav li:hover {
 
 .blog-box img {
   width: 100%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border: 3px solid white;
+  /* border-top-left-radius: 5px; */
+  /* border-top-right-radius: 5px; */
+  border-radius: 5px;
 }
