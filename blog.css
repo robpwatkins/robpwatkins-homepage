@@ -107,7 +107,7 @@ nav li:hover {
   align-items: center;
   height: 91%;
   width: 100%;
-  padding: 45px 15px 15px 15px;
+  padding: 35px 15px 15px 15px;
   /* border: 3px solid white; */
   border-radius: 10px;
 }
@@ -118,33 +118,33 @@ nav li:hover {
   height: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  overflow: scroll;
+  /* overflow: scroll; */
   /* background: var(--bg-opaque); */
   border-radius: 10px;
 }
 
 .blog-box {
   width: 45%;
-  height: 60%;
+  height: 48%;
 }
 
 .blog-box h3 {
-  padding: 10px 0;
+  padding: 5px 0 0 0;
 }
 
 .blog-box p {
   font-size: 11px;
-  padding: 3px 0 12px 0;
+  padding: 3px 0 2px 0;
 }
 
 .blog-box hr {
   width: 30%;
-  border-top: 3px solid white;
+  border-top: 2px solid white;
 }
 
 .blog-box .preview-text {
   font-size: 14px;
-  padding: 12px 0;
+  padding: 7px 0;
 }
 
 /* .blog-box:hover {
