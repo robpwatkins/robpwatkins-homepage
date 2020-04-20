@@ -112,13 +112,17 @@ nav li:hover {
   border-radius: 10px;
 }
 
-.postcard-container {
+.postcard {
   display: flex;
   width: 85%;
   height: 90%;
   background: white;
   border: 10px solid white;
   border-radius: 5px;
+}
+
+.postcard:hover {
+  box-shadow: 5px 5px 10px var(--shadow);
 }
 
 .postcard-left, .postcard-right {
@@ -137,7 +141,7 @@ nav li:hover {
   width: 80%;
   height: 90%;
   background-image: url(./img/MountainManWellAdjustedNoTimehop.png);
-  /* filter: blur(8px); */
+  filter: blur(8px);
   background-size: cover;
   background-position: bottom 0px left -180px;
   background-repeat: no-repeat;
