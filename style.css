@@ -15,6 +15,8 @@ hr {
 :root {
   --text-inactive: rgba(255, 255, 255, 0.404);
   --overlay: #41414242;
+  --shadow: #343435af;
+  --bg-opaque: rgba(255, 255, 255, 0.76);
 }
 
 html, body {
@@ -90,7 +92,6 @@ ul {
 }
 
 ul .home {
-  width: 64px;
   transform: scale(1.5);
   color: white;
 }
