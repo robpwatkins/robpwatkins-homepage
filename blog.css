@@ -14,7 +14,7 @@ hr {
 
 :root {
   --text-inactive: rgba(255, 255, 255, 0.404);
-  --overlay: #4141425d;
+  --overlay: #41414242;
   --shadow: #343435af;
   --bg-opaque: rgba(255, 255, 255, 0.76);
 }
@@ -36,8 +36,6 @@ html, body {
 .background-img  {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: space-between;
   background-image: url(./img/BackgroundFirstTry2.jpg);
   background-size: cover;
   border-radius: 3px;
